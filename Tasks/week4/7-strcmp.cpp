@@ -15,15 +15,8 @@ int main()
     getline(cin, s2);
 
     // Tell if equal or not
-    cout << endl;
-    if (s1.compare(s2) == 0)
-    {
-        cout << "String are equal" << endl;
-    }
-    else
-    {
-        cout << "Strings are not equal" << endl; 
-    }
+    cout << boolalpha << endl;
+    cout << "String are equal: " << !(s1.compare(s2)) << endl;
 
     return 0;
 }

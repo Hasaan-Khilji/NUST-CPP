@@ -12,7 +12,8 @@ int main()
     getline(cin, fullName);
 
     // Display full name
-    cout << endl << fullName;
+    cout << endl << fullName << endl;
+    cout << size(fullName);
 
     return 0;
 }
