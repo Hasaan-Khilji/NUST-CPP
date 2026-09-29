@@ -12,18 +12,10 @@ int main()
     cin >> n;
 
     // Check the sign of number
-    if (n > 0)
-    {
-        cout << n << " is positive" << endl;
-    }
-    else if (n < 0)
-    {
-        cout << n << " is negative" << endl;
-    }
-    else
-    {
-        cout << "it's zero!" << endl;
-    }
+    cout << boolalpha;
+    cout << endl << n << " is positive: " << ( n > 0 ) << endl;
+    cout << n << " is negative: "<< ( n < 0 ) << endl;
+    cout << "It's zero: " << ( n == 0) << endl;
 
     return 0;
 }
