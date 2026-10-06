@@ -19,11 +19,11 @@ int main()
 
     // Calculate and apply discount
     amount = price * quan;
-    if (amount > 1000)
+    if (amount > 1000 && amount < 3000)
     {
         discount = 10;
     }
-    else if (amount > 3000)
+    else if (amount > 3000 && amount < 5000)
     {
         discount  = 15;
     } else if (amount > 5000)
