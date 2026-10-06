@@ -13,7 +13,7 @@ int main()
     cout << "Please enter your marks: ";
     cin >> marks;
 
-    // Print grade
+    // Get grade
     if (marks >= 60)
     {
         if (marks >= 70)
