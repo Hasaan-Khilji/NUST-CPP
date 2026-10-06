@@ -11,7 +11,7 @@ int main()
     cout << "Enter a number: ";
     cin >> n; 
     
-    if ((n % 2) == 0)
+    /* if ((n % 2) == 0)
     {
         cout << "\nNumber is even\n";
     }
@@ -19,7 +19,9 @@ int main()
     {
         cout << "\nNumber is odd\n";
 
-    }
+    } */
+
+    (n % 2 == 0) ? cout << "\nNumber is even!\n" : cout << "\nNumber is odd\n";
 
     return 0;
 }
