@@ -4,12 +4,9 @@ using namespace std;
 
 int main()
 {
-    // Initialize float
-    float price;
-    float quan;
-    float amount;
+    // Initialize floats and int
+    float price, quan, amount, discounted;
     int discount = 0;
-    float discounted;
 
     // Get input from user
     cout << "Please enter price: ";
