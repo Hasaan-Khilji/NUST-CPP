@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     // Initialize floats
-    int n1, n2, n3;
+    float n1, n2, n3;
 
     // Get numbers from user
     cout << "Enter first number: ";
