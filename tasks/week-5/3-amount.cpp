@@ -26,7 +26,7 @@ int main()
     else if (amount > 3000)
     {
         discount  = 15;
-    } else if (amount > 3000)
+    } else if (amount > 5000)
     {
         discount = 20;
     }
