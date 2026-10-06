@@ -31,6 +31,20 @@ int main()
         discount = 20;
     }
 
+    //Alternative way (less cmomputing power)
+    if (amount >= 5000)
+    {
+        discount = 20;
+    }
+    else if (amount >= 3000)
+    {
+        discount = 15;
+    }
+    else if (amount >= 1000)
+    {
+        discount = 10;
+    }
+
     discounted = amount - (amount * discount/100.0);
 
 
