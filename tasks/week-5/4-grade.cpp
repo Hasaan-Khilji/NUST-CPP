@@ -9,7 +9,7 @@ int main()
     char grade = 'F';
 
 
-    // Get input forom user
+    // Get input from user
     cout << "Please enter your marks: ";
     cin >> marks;
 
