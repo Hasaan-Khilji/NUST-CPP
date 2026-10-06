@@ -6,9 +6,7 @@ using namespace std;
 int main()
 {
     // Initialize strings
-    string pass;
-    string confirm;
-    string access;
+    string pass, confirm, access;
 
     // Get inpout from users
     cout << "Enter Password: ";
