@@ -14,7 +14,7 @@ int main()
     cout << "Please enter quantity: ";
     cin >> quan;
 
-    // Calculate and apply discount
+    // Set discount based on amount
     amount = price * quan;
     if (amount >= 1000 && amount < 3000)
     {
@@ -28,7 +28,7 @@ int main()
         discount = 20;
     }
 
-    //Alternative way (less cmomputing power)
+    // Alternative way (less cmomputing power)
     if (amount >= 5000)
     {
         discount = 20;
@@ -42,6 +42,7 @@ int main()
         discount = 10;
     }
 
+    // Calculate disciount
     discounted = amount - (amount * discount/100.0);
 
 
