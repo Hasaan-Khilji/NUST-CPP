@@ -63,6 +63,5 @@ int main()
             break;
         default:
             cout << "Invalid input\n";
-            break;
     }
 }
