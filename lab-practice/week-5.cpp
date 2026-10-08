@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
     // Initialize floats
-    float n1;
-    float n2;
-    float n3;
+    int n1;
+    int n2;
+    int n3;
 
     // Get numbers from user
     cout << "Enter first number: ";
