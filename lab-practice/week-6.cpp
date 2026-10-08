@@ -41,28 +41,28 @@ int main()
     switch (day)
     {
         case 1:
-            cout << "Monday";
+            cout << "Monday\n";
             break;
         case 2:
-            cout << "Tuesday";
+            cout << "Tuesday\n";
             break;
         case 3:
-            cout << "Wednesday";
+            cout << "Wednesday\n";
             break;
         case 4:
-            cout << "Thursday";
+            cout << "Thursday\n";
             break;
         case 5:
-            cout << "Friday";
+            cout << "Friday\n";
             break;
         case 6:
-            cout << "Saturday";
+            cout << "Saturday\n";
             break;
         case 7:
-            cout << "Sunday";
+            cout << "Sunday\n";
             break;
         default:
-            cout << "Invalid input";
+            cout << "Invalid input\n";
             break;
     }
 }
