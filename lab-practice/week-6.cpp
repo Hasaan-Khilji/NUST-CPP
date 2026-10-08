@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    // Initialize variable
+    /* // Initialize variable
     int n;
 
     // Get input form user
@@ -27,5 +27,42 @@ int main()
             cout << "\nIt's fine";
         }
 
-    return 0;
+    return 0; */
+
+    // Initialize day
+    int day;
+
+    // Get input from user
+    cout << "Select a day (1 to 7): ";
+    cin >> day;
+    cout << "\n";
+
+    // Print day based on number
+    switch (day)
+    {
+        case 1:
+            cout << "Monday";
+            break;
+        case 2:
+            cout << "Tuesday";
+            break;
+        case 3:
+            cout << "Wednesday";
+            break;
+        case 4:
+            cout << "Thursday";
+            break;
+        case 5:
+            cout << "Friday";
+            break;
+        case 6:
+            cout << "Saturday";
+            break;
+        case 7:
+            cout << "Sunday";
+            break;
+        default:
+            cout << "Invalid input";
+            break;
+    }
 }
