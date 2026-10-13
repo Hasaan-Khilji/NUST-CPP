@@ -36,11 +36,11 @@ int main()
 
     final = bill + (bill * tax / 100);
 
-    cout << endl << fixed << setprecision(2) << setw(30) << left << "Units" << right << "Tax" << endl;
+    cout << endl << setw(30) << left << "Units" << right << "Tax" << endl;
     cout << setw(30) << left << units << right << tax << '%' << endl;
 
 
-    cout << endl << setw(30) << left << "Basic Bill" << right << "Final Bill" << endl;
+    cout << endl << fixed << setprecision(2) << setw(30) << left << "Basic Bill" << right << "Final Bill" << endl;
     cout << setw(30) << left << bill << right << final << endl;
 
     return 0;
