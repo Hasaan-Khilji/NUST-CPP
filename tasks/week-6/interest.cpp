@@ -34,7 +34,7 @@ int main()
         case 'E':
         case 'e':
             cout << "Exited!";
-            break;
+            return 0;
         default:
             cout << "Invalid input";
     }
