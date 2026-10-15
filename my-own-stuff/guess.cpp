@@ -1,34 +1,40 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
     // Initialize variables
-    int number = 41;
+    int number = rand() % 100;
     int guess;
     int hp = 10;
 
-    cout << "Enter a guess (1 to 100): ";
-    cin >> guess;
     cout << "HP: " << hp;
+    cout << "\nEnter a guess (1 to 100): ";
+    cin >> guess;
 
-    while (guess != number || hp == 0 )
+    while (guess != number)
     {
         if (guess > number)
         {
-            cout << "Wrong, too High!\n";
+            cout << "\nWrong, too High!\n";
         } else 
         {
-            cout << "Wrong, Too Low!\n";
+            cout << "\nWrong, Too Low!\n";
         }
-        cout << "Remaining hp: " << --hp;
+        cout << "Remaining hp: " << --hp << endl;
+        if (hp == 0)
+        {
+            break;
+        }
+        cout << "Try Again: ";
         cin >> guess;
     }
 
     if (hp == 0)
     {
-        cout << "You ran out of hp :P\n";
+        cout << "\nYou ran out of hp :P\n";
     } else {
         cout << "\nCongrats, you guessed right!" << endl;
 
