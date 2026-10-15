@@ -29,7 +29,7 @@ int main()
         sum += num;
     }
 
-    cout << endl << sum << endl;
+    cout << endl << "The sum of the " << limit << " numbers you entered is: "<< sum << endl;
 
     return 0;
 }
