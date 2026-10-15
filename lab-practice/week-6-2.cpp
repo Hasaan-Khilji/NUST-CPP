@@ -6,14 +6,30 @@ int main()
 {
     // Initialize variables
     float sum = 0;
-    int counter = 100;
+    int limit;
 
-    for (int counter = 0; counter < 50; counter++)
+    cout << "How many numbers? ";
+    cin >> limit;
+
+    cout << "\nEnter " << limit << " numbers to add:\n"; 
+
+
+    int num;
+    // int counter = 0;
+    // while (counter < limit)
+    // {
+    //     cin >> num;
+    //     sum += num;
+    //     counter++;
+    // }
+
+    for (int i = 0; i < limit; i++)
     {
-        sum += counter;
-        cout << sum << endl;
+        cin >> num;
+        sum += num;
     }
 
-    cout << counter;
+    cout << endl << sum << endl;
+
     return 0;
 }
