@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     // Initialize variables
-    int number = rand() % 100;
+    int number = rand() % 100 + 1;
     int guess;
     int hp = 10;
 
