@@ -5,13 +5,14 @@ using namespace std;
 
 int main()
 {
-    bool again = false;
+    bool again;
     do
     {
     // Initialize variables
-    int n;
+    string n;
+    int N = 3;
     srand(time(0));
-    int number = rand() % 100;
+    int number = rand() % 100 + 1;
     int guess;
     int hp = 10;
 
@@ -44,10 +45,16 @@ int main()
         cout << "\nCongrats, you guessed right!" << endl;
     }
 
-    cout << "\nDo you want to play again?\nType 1 or 2\n1)Yes\n2)No\n";
+    cout << "\nDo you want to play again?\n1)Yes\n2)No\n";
     cin >> n;
+    if (n == "1" || n == "y" || n == "Y" || n == "Yes" || n == "yes"){
+        N = 1;
+    }
+    if (n == "2" || n == "n" || n == "N" || n == "No" || n == "no"){
+        N = 2;
+    }
 
-    switch (n)
+    switch (N)
     {
         case 1:
             again = true;
