@@ -16,7 +16,6 @@ int main() {
         cout << "Enter age of person " << i + 1 << ": ";
         cin >> ages[i];
 
-        // cin.clear();
         cin.ignore(1000, '\n');
 
     }
